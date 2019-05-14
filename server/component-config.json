@@ -10,7 +10,10 @@
     "models": [
       "Role",
       "New",
-      "TypeNew"
+      "TypeNew",
+      "ACL",
+      "AccessToken",
+      "User"
     ],
     "fixtures": "./test/fixtures/"
   }
