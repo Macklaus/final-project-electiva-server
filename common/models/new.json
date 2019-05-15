@@ -21,6 +21,10 @@
     "type": {
       "type": "string",
       "default": "world"
+    },
+    "userId": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
