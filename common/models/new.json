@@ -12,7 +12,8 @@
     },
     "content": {
       "type": "string",
-      "required": true
+      "required": true,
+      "length": 1000000
     },
     "imageUrl": {
       "type": "string",
@@ -30,12 +31,6 @@
   "validations": [],
   "relations": {},
   "acls": [
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "DENY"
-    },
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
